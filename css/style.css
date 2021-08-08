@@ -1,0 +1,89 @@
+
+
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%);
+  }
+
+a{
+  text-decoration: none;
+}
+
+.container {
+  height: 27rem;
+  width: 48rem;
+ margin: 6rem auto 4rem;
+
+}
+
+  .sedans {
+    background-color: hsl(31, 77%, 52%);
+    height: 27rem;
+    width: 16rem;
+    position: absolute;
+
+
+  }
+  .suvs {
+    background-color: hsl(184, 100%, 22%);
+    height: 27rem;
+    width: 16rem;
+    position: relative;
+    left: 16rem;
+  }
+  .luxury {
+    background-color: hsl(179, 100%, 13%);
+    height: 27rem;
+    width: 16rem;
+    position: relative;
+    left: 32rem;
+    bottom: 27rem;
+}
+
+h1 {
+  margin-left: 30px;
+  color: hsl(0, 0%, 95%);
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: 700;
+}
+h2 {
+  margin: 30px;
+  margin-right: 80px;
+  margin-top: 60px;
+  color: hsl(0, 0%, 95%);
+  border-radius: 50px;
+  border-color: hsl(0, 0%, 95%);
+  border: solid;
+  text-align: center;
+  padding: 10px 7px;
+  font-size: 20px;
+  border-width: thin;
+
+}
+
+img {
+  margin-top: 40px;
+  margin-left: 30px;
+}
+
+.link1:hover {
+  color: hsl(31, 77%, 52%);
+   background-color: hsl(0, 0%, 95%);
+}
+
+.link2:hover {
+  color: hsl(184, 100%, 22%);
+    background-color: hsl(0, 0%, 95%);
+}
+
+.link3:hover {
+  color: hsl(179, 100%, 13%);
+    background-color: hsl(0, 0%, 95%);
+}
+
+p {
+  margin-left: 30px;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.7;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+}
