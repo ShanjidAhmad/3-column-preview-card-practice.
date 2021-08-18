@@ -1,6 +1,7 @@
 
 
-  .attribution { font-size: 11px; text-align: center; }
+
+    .attribution { font-size: 11px; text-align: center; }
   .attribution a { color: hsl(228, 45%, 44%);
   }
 
@@ -9,9 +10,14 @@ a{
 }
 
 .container {
-  height: 27rem;
-  width: 48rem;
- margin: 6rem auto 4rem;
+  height: 600px;
+  width: 100%;
+  border: 2px solid;
+  border-color:ivory;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 
 }
 
@@ -19,7 +25,6 @@ a{
     background-color: hsl(31, 77%, 52%);
     height: 27rem;
     width: 16rem;
-    position: absolute;
 
 
   }
@@ -27,16 +32,12 @@ a{
     background-color: hsl(184, 100%, 22%);
     height: 27rem;
     width: 16rem;
-    position: relative;
-    left: 16rem;
+    
   }
   .luxury {
     background-color: hsl(179, 100%, 13%);
     height: 27rem;
-    width: 16rem;
-    position: relative;
-    left: 32rem;
-    bottom: 27rem;
+    width: 16rem; 
 }
 
 h1 {
@@ -87,3 +88,4 @@ p {
   font-family: 'Lexend Deca', sans-serif;
   font-weight: 400;
 }
+
