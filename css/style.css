@@ -1,9 +1,15 @@
 
+    .attribution a { color: hsl(228, 45%, 44%);
+    }
 
-
-    .attribution { font-size: 11px; text-align: center; }
-  .attribution a { color: hsl(228, 45%, 44%);
+  .attribution { font-size: 11px; 
+    text-align: center; 
+    flex-wrap: wrap;
+    flex: 0 0 100%;
+  
   }
+
+       
 
 a{
   text-decoration: none;
@@ -88,4 +94,3 @@ p {
   font-family: 'Lexend Deca', sans-serif;
   font-weight: 400;
 }
-
